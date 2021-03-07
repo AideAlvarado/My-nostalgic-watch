@@ -1,0 +1,238 @@
+body {
+  background: radial-gradient(circle at 74.2% 50.9%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);
+ /* background: radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) 0%, rgb(56, 113, 209) 22.9%, rgb(38, 76, 140) 76.7%, rgb(31, 63, 116) 100.2%); */
+  /*background: radial-gradient(circle at 74.2% 50.9%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%); --> like it*/
+  /*background-color: rgb(13, 27, 231);    */
+}
+
+.correa {
+    height: 406px;
+}
+.correa1, .correa2, .correa3 {
+  margin: auto;
+  border: 2px solid black;
+}
+
+.correa1 {
+  width: 260px;
+  height: 20px;
+  background-color:#EDD266;
+  box-shadow: 3px 3px black
+}
+.correa2 {
+  width: 270px;
+  height: 32px;
+  background-color:#EDD266;
+  box-shadow: 3px 3px black
+}
+.correa3 {
+  width: 280px;
+  height: 40px;
+  background-color:#EDD266;
+  box-shadow: 3px 3px black
+}
+
+
+.contenedor {
+  background: rgb(240, 206, 16); 
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  position: relative;
+  margin:  auto;
+  
+  opacity: 0.8;
+  border-radius: 15px;
+  box-shadow: 3px 3px black
+}
+
+.cal {
+  width: 100%;
+  position: absolute;
+  background: white;
+  bottom: 1px;
+  border-top: 2px solid black;
+  z-index:10;
+  overflow: hidden;
+  background: rgb(240, 206, 16); 
+  
+}
+
+.calculadora {    /* estilo de la calculadora */
+  display: block;
+  margin: 5px 5px 5px 5px;
+  padding: 10px;
+  background-color: black;
+  width: 290px;
+  height:171px;
+  border-radius: 5px;
+    
+}
+.calculadora td button { /* estilo de las teclas */
+  display: block;
+  width: 63px;
+  height: 30px;
+  font-size: small;
+  border-radius: 5px;
+  border:1px solid whitesmoke;
+  margin-top:2px;
+  color: white;
+  background-color: black;
+
+    }
+.calculadora td button:hover { /* estilo de las teclas */
+  display: block;
+  width: 63px;
+  height: 30px;
+  font-size: small;
+  border-radius: 5px;
+  border:1px solid whitesmoke;
+  margin-top:2px;
+  color: black;
+  background-color: white;
+
+    }
+.display {
+  display: block;
+  width: 264px;
+  height: 82px;
+  font-size: small;
+  border-radius: 5px;
+  border:2px solid black;
+  margin: 5px 5px 5px 5px;
+  padding: 10px;
+  background-color: black;
+ 
+  }
+
+.displaysmall {
+  display: block;
+  width: 231px;
+  height: 38px;
+  font-size: small;
+  border-radius: 5px;
+  border:2px solid black;
+  margin: 5px 5px 5px 5px;
+  padding: 10px;
+  background-color: rgb(121, 102, 10);
+  transition:all 0.3s;
+  }
+ 
+ .on {
+	color:#fddb09;
+	text-shadow: 0 0 100px #ffe500;
+}
+
+#resultado {
+  font-family: "Segment7Standard";
+  font-size: xx-large;
+  display: block;
+  text-align: center;
+  text-shadow: 0 0 20px rgb(252, 252, 252);
+ }
+
+ #clock {
+  font-family: "Segment7Standard";
+  font-size: xxx-large;
+  display: block;
+  text-align: center;
+  text-shadow: 0 0 20px rgb(252, 252, 252);
+  font-family: 'Special Elite', cursive;
+  letter-spacing: 3px;
+ }
+
+ #casio {
+    color: #d8b52b;
+    height: 0px;
+    margin-top: 1px;
+    margin-bottom: 18px;
+    width: 290px;
+    font-size: smaller;
+    display:inline;
+    letter-spacing: 4px;
+    
+ }
+
+  #ilum {
+    color: whitesmoke;
+    height: 0px;
+    margin-top: 1px;
+    margin-bottom: 18px;
+    width: 290px;
+    font-size: smaller;
+    display:inline;
+    letter-spacing: 4px;
+ }
+
+ #data {
+    color: #090cec;
+    height: 0px;
+    margin-top: 1px;
+    margin-bottom: 18px;
+    width: 290px;
+    font-size: smaller;
+    display:inline;
+    letter-spacing: 4px;
+    
+ }
+ #button_clock {
+  display: flex;
+  font-size: small;
+  border-radius: 4px;
+  border:1px solid black;
+  color: black;
+  background-color: #d8b52b;
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin-left: 272px;
+  box-shadow: -5px -3px 5px -3px black;
+  
+
+ }
+ #button_light {
+  display: flex;
+
+  font-size: small;
+  border-radius: 4px;
+  border:1px solid black;
+  color: black;
+  background-color: #d8b52b;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  margin-left: -46px;
+  box-shadow: -5px 0px 5px 0px black;
+ }
+ #button_watch_cal {
+  display: flex;
+  font-size: small;
+  border-radius: 4px;
+  border:1px solid black;
+  color: black;
+  background-color: #d8b52b;
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin-left: 275px;
+  margin-top:3px;
+  box-shadow: 3px 0px 3px 0px black;
+ }
+
+ .signature, #signature {
+  color: black;
+  font-family: 'Special Elite', cursive;
+  font-size: large;
+  text-align: center;
+  width: 1234px;
+  height: 23px;
+  padding-left: 38px;
+  text-decoration: none;
+  
+ }
