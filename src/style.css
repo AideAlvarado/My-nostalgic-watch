@@ -193,6 +193,7 @@ body {
 
  }
  #button_light {
+  height: 18px;
   display: flex;
   font-size: small;
   border-radius: 4px;
