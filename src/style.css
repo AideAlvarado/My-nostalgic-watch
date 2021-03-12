@@ -94,7 +94,7 @@ body {
     }
 .display {
   display: block;
-  width: 264px;
+  /*width: 264px;*/
   height: 82px;
   font-size: small;
   border-radius: 5px;
