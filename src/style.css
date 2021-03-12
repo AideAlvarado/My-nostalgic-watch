@@ -191,6 +191,7 @@ body {
   transform: rotate(90deg);
   margin-left: 270px;
   box-shadow: -5px -3px 5px -3px black;
+  padding-left: 8px;
   
 
  }
@@ -210,6 +211,7 @@ body {
   transform: rotate(270deg);
   margin-left: -50px;
   box-shadow: -5px 0px 5px 0px black;
+  padding-left: 9px;
  }
 
  #button_watch_cal {
@@ -229,6 +231,7 @@ body {
   margin-left: 273px;
   margin-top:3px;
   box-shadow: 3px 0px 3px 0px black;
+  padding-left: 7px;
  }
 
  .signature, #signature {
