@@ -176,6 +176,8 @@ body {
     
  }
  #button_clock {
+  width: 47px;
+  height: 21px;
   display: flex;
   font-size: small;
   border-radius: 4px;
@@ -193,6 +195,8 @@ body {
 
  }
  #button_light {
+  width: 47px;
+  height: 21px;
   display: flex;
   font-size: small;
   border-radius: 4px;
@@ -209,6 +213,8 @@ body {
  }
 
  #button_watch_cal {
+  width: 40px;
+  height: 21px;
   display: flex;
   font-size: small;
   border-radius: 4px;
